@@ -2,9 +2,9 @@
         "Shipper": {
             "row": [2, 8],
             "column": [1, 60],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "endObject": 
             {
@@ -17,8 +17,8 @@
         "Consignee": {
             "row": [9, 17],
             "column": [1, 60],
-            "singleLine": 0,
-            "sameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -33,8 +33,8 @@
         "Notify": {
             "row": [18, 25],
             "column": [1, 60],
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -48,8 +48,8 @@
         "Reference No.": {
             "row": [1, 2],
             "column": [78, null],
-            "singleLine": 1,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -63,8 +63,8 @@
         "Booking No.": {
             "row": [3, 4],
             "column": [78, null],
-            "sameLineWithKeyword": 1,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -78,8 +78,8 @@
         "TO": {
             "row": [5, 6],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -93,8 +93,8 @@
         "TEL1": {
             "row": [6, 7],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -108,8 +108,8 @@
         "TEL2":  {
             "row": [12, 13],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -123,8 +123,8 @@
         "FAX1":{
             "row": [7, 8],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -139,8 +139,8 @@
             "row": [14, 15],
             "column": [78, null],
             "isFlex": 1,
-            "sameLineWithKeyword": 1,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": 
             {
@@ -154,8 +154,8 @@
         "ATTN1":{
             "row": [8, 9],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -169,8 +169,8 @@
         "ATTN2": {
             "row": [15, 16],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -184,8 +184,8 @@
         "FROM": {
             "row": [11, 12],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -199,8 +199,8 @@
         "E-MAIL": {
             "row": [16, 17],
             "column": [78, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -214,8 +214,8 @@
         "M.B/L Type": {
             "row": [20, 21],
             "column": [78, null],
-            "sameLineWithKeyword": 1,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -229,8 +229,8 @@
         "HS Code": {
             "row": [24, 25],
             "column": [78, null],
-            "sameLineWithKeyword": 1,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -244,8 +244,8 @@
         "M.Vessel/Voyage": {
             "row": [25,26],
             "column": [20,58],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -259,9 +259,9 @@
         "Port of Loading": {
             "row": [26, 27],
             "column": [20, 58],
-            "sameLineWithKeyword": 1,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": 
             {
@@ -274,8 +274,8 @@
         "Delivery": {
             "row": [27, 28],
             "column": [20, 58],
-            "sameLineWithKeyword": 1,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -289,9 +289,9 @@
         "ETD": {
             "row": [25, 26],
             "column": [66, 85],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
-            "sameLineWithKeyword": 1,
+            "contentSameLineWithKeyword": 1,
             "hasSubfield": 0,
             "endObject": 
             {
@@ -304,8 +304,8 @@
         "ETA": {
             "row": [25, 26],
             "column": [95,100],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -319,8 +319,8 @@
         "Port of Discharge": {
             "row": [26, 27],
             "column": [80, 94],
-            "singleLine": 0,
-            "sameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -334,8 +334,8 @@
         "Final Destination": {
             "row": [27, 28],
             "column": [81, 94],
-            "sameLineWithKeyword": 1,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -349,9 +349,9 @@
         "Mark & Number": {
             "row": [31, 36],
             "column": [0, 37],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "endObject": 
             {
@@ -364,8 +364,8 @@
         "No of Package": {
             "row": [29, 31],
             "column": [32, 44],
-            "singleLine": 0,
-            "sameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 0,
             "isFlex": 1,    
             "hasSubfield": 0,
             "endObject": 
@@ -385,8 +385,8 @@
         "Description of Goods": {
             "row": [30, 35],
             "column": [44, 80],
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
@@ -400,9 +400,9 @@
         "Weight": {
             "row": [29, 31], 
             "column": [84, 103],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "endObject": 
             {
@@ -415,8 +415,8 @@
         "Measurement": {
             "row": [29, 31],
             "column": [102, 115],
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": 
