@@ -1,0 +1,430 @@
+{
+        "Shipper": {
+            "row": [2, 8],
+            "column": [1, 60],
+            "singleLine": 0,
+            "isFlex": 1,
+            "sameLineWithKeyword": 0,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Shipper",
+                "bottom": "Consignee",
+                "left": -1,
+                "right": "Reference No."
+            }
+        },
+        "Consignee": {
+            "row": [9, 17],
+            "column": [1, 60],
+            "singleLine": 0,
+            "sameLineWithKeyword": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Consignee",
+                "bottom": "Notify",
+                "left": -1,
+                "right": "Reference No."
+            }
+
+        },
+        "Notify": {
+            "row": [18, 25],
+            "column": [1, 60],
+            "sameLineWithKeyword": 0,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Notify",
+                "bottom": "M.Vessel/Voyage",
+                "left": -1,
+                "right": "Reference No."
+            }
+        },
+        "Reference No.": {
+            "row": [1, 2],
+            "column": [78, null],
+            "singleLine": 1,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": -1,
+                "bottom": "Booking No.",
+                "left": "Reference No.",
+                "right": -1
+            }
+        },
+        "Booking No.": {
+            "row": [3, 4],
+            "column": [78, null],
+            "sameLineWithKeyword": 1,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Reference No.",
+                "bottom": "TO",
+                "left": "Booking No.",
+                "right": -1
+            }
+        },
+        "TO": {
+            "row": [5, 6],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Booking No.",
+                "bottom": "TEL1",
+                "left": "TO",
+                "right": -1
+            }
+        },
+        "TEL1": {
+            "row": [6, 7],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "TO",
+                "bottom": "FAX1",
+                "left": "TEL1",
+                "right": -1
+            }
+        },
+        "TEL2":  {
+            "row": [12, 13],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "FROM",
+                "bottom": "FAX2",
+                "left": "TEL2",
+                "right": -1
+            }
+        },
+        "FAX1":{
+            "row": [7, 8],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "TEL1",
+                "bottom": "ATTN1",
+                "left": "FAX1",
+                "right": -1
+            }
+        },
+        "FAX2":{
+            "row": [14, 15],
+            "column": [78, null],
+            "isFlex": 1,
+            "sameLineWithKeyword": 1,
+            "singleLine": 0,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "TEL2",
+                "bottom": "ATTN2",
+                "left": "FAX2",
+                "right": -1
+            }
+        },
+
+        "ATTN1":{
+            "row": [8, 9],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "FAX1",
+                "bottom": "FROM",
+                "left": "ATTN1",
+                "right": -1
+            }
+        },
+        "ATTN2": {
+            "row": [15, 16],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "FAX2",
+                "bottom": "E-MAIL",
+                "left": "ATTN2",
+                "right": -1
+            }
+        },
+        "FROM": {
+            "row": [11, 12],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "ATTN1",
+                "bottom": "TEL2",
+                "left": "FROM",
+                "right": -1
+            }
+        }, 
+        "E-MAIL": {
+            "row": [16, 17],
+            "column": [78, null],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "ATTN2",
+                "bottom": "M.B/L Type",
+                "left": "E-MAIL",
+                "right": -1
+            }
+        },
+        "M.B/L Type": {
+            "row": [20, 21],
+            "column": [78, null],
+            "sameLineWithKeyword": 1,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "E-MAIL",
+                "bottom": "HS Code",
+                "left": "M.B/L Type",
+                "right": -1
+            }
+        },
+        "HS Code": {
+            "row": [24, 25],
+            "column": [78, null],
+            "sameLineWithKeyword": 1,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "M.B/L Type",
+                "bottom": "ETD",
+                "left": "HS Code",
+                "right": -1
+            }
+        },
+        "M.Vessel/Voyage": {
+            "row": [25,26],
+            "column": [20,58],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "HS Code",
+                "bottom": "Port of Loading",
+                "left": "M.Vessel/Voyage",
+                "right": "ETD"
+            }
+        },
+        "Port of Loading": {
+            "row": [26, 27],
+            "column": [20, 58],
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "singleLine": 0,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "M.Vessel/Voyage",
+                "bottom": "Delivery",
+                "left": "Port of Loading",
+                "right": "Port of Discharge"
+            }
+        },
+        "Delivery": {
+            "row": [27, 28],
+            "column": [20, 58],
+            "sameLineWithKeyword": 1,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Port of Loading",
+                "bottom": "Mark & Number",
+                "left": "Delivery",
+                "right": "Final Destination"
+            }
+        },
+        "ETD": {
+            "row": [25, 26],
+            "column": [66, 85],
+            "singleLine": 0,
+            "isFlex": 1,
+            "sameLineWithKeyword": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "HS Code",
+                "bottom": "Port of Discharge",
+                "left": "ETD",
+                "right": "ETA"
+            }
+        },
+        "ETA": {
+            "row": [25, 26],
+            "column": [95,100],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "HS Code",
+                "bottom": "Port of Loading",
+                "left": "ETA",
+                "right": -1
+            }
+        },
+        "Port of Discharge": {
+            "row": [26, 27],
+            "column": [80, 94],
+            "singleLine": 0,
+            "sameLineWithKeyword": 1,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "ETD",
+                "bottom": "Final Destination",
+                "left": "Port of Discharge",
+                "right": -1
+            }
+        },
+        "Final Destination": {
+            "row": [27, 28],
+            "column": [81, 94],
+            "sameLineWithKeyword": 1,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Port of Discharge",
+                "bottom": "Weight",
+                "left": "Final Destination",
+                "right": -1
+            }
+        },
+        "Mark & Number": {
+            "row": [31, 36],
+            "column": [0, 37],
+            "singleLine": 0,
+            "isFlex": 1,
+            "sameLineWithKeyword": 0,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Mark & Number",
+                "bottom": -1,
+                "left": -1,
+                "right": "No of Package"
+            }
+        },
+        "No of Package": {
+            "row": [29, 31],
+            "column": [32, 44],
+            "singleLine": 0,
+            "sameLineWithKeyword": 0,
+            "isFlex": 1,    
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "No of Package",
+                "bottom": -1,
+                "left": "Mark & Number",
+                "right": "Description of Goods"
+            },
+            "hasSubfield": 1,
+            "subfields":
+            {   
+                "Quantity": "[0-9]+ [A-Z]+",
+                "Code": 10
+            }
+        },
+        "Description of Goods": {
+            "row": [30, 35],
+            "column": [44, 80],
+            "sameLineWithKeyword": 0,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Description of Goods",
+                "bottom": -1,
+                "left": "No of Package",
+                "right": "Weight"
+            }
+        },
+        "Weight": {
+            "row": [29, 31], 
+            "column": [84, 103],
+            "singleLine": 0,
+            "isFlex": 1,
+            "sameLineWithKeyword": 0,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Weight",
+                "bottom": -1,
+                "left": "Description of Goods",
+                "right": "Measurement"
+            }
+        },
+        "Measurement": {
+            "row": [29, 31],
+            "column": [102, 115],
+            "sameLineWithKeyword": 0,
+            "singleLine": 0,
+            "isFlex": 1,
+            "hasSubfield": 0,
+            "endObject": 
+            {
+                "top": "Measurement",
+                "bottom": -1,
+                "left": "Weight",
+                "right": -1
+            }
+        }
+}
