@@ -9,7 +9,6 @@ CURR_CONFIG = {}
 with open(PDF_TYPE + '/' + PDF_TYPE + '.json', 'r', encoding='utf8') as json_file:
     CONFIG = json.load(json_file)
 
-# KEYWORD for VN103933
 KEYWORD = [
             'SHIPPING REQUEST', 'Shipper', 'Consignee', 'Notify', 'Reference No.', 'Booking No.', 'TO  ',
             'TEL  ','FAX  ','ATTN', 'FROM', 'E-MAIL', 'M.B/L Type', 'HS Code', 'M.Vessel/Voyage',
@@ -17,7 +16,6 @@ KEYWORD = [
             'No of Package', 'Description of Goods', 'Weight', 'Measurement', 'FREIGHT PREPAID'
             ]
 
-# KEYWORD FOR VN101466
 # KEYWORD = ['From','To','Booking No.','Date','Shipper Name & Address',
 #             'Consignee Name & Address','Notify Party','Port of Loading',
 #             'Port of Discharge','Place of Delivery','Vessel',
@@ -69,8 +67,8 @@ if __name__ == '__main__':
             if (CONFIG[key]['isFlex']): 
                 top=CONFIG[key]['endObject']['top']
                 bot=CONFIG[key]['endObject']['bottom']
-                singleLine=CONFIG[key]['singleLine']
-                sameLineWithKeyword=CONFIG[key]['sameLineWithKeyword']
+                topAndKeywordOnSingleLine=CONFIG[key]['topAndKeywordOnSingleLine']
+                contentSameLineWithKeyword=CONFIG[key]['contentSameLineWithKeyword']
                 toprow=-1
                 botrow=-1
                 minDistance=100000
@@ -86,8 +84,8 @@ if __name__ == '__main__':
                         botrow=kwpos[kw][0]
                 # print(key)
                 if (top!=-1): 
-                    if (singleLine): CONFIG[key]['row'][0]=toprow
-                    elif (sameLineWithKeyword==0): CONFIG[key]['row'][0]=toprow+CONFIG[key]['row'][0]-kwpos[top][0]
+                    if (topAndKeywordOnSingleLine): CONFIG[key]['row'][0]=toprow
+                    elif (contentSameLineWithKeyword==0): CONFIG[key]['row'][0]=toprow+CONFIG[key]['row'][0]-kwpos[top][0]
                     else: CONFIG[key]['row'][0]=toprow+1
                 if (bot!=-1): CONFIG[key]['row'][1]=botrow
 
