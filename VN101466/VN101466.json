@@ -2,32 +2,32 @@
         "From": {
             "row": [7, 8],
             "column": [29, 91],
-            "sameLineWithKeyword": 1,
-            "singleLine": 1,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
             "hasSubfield": 0,
             "isFlex": 0
         },
         "To": {
             "row": [7, 8],
             "column": [113, null],
-            "sameLineWithKeyword": 1,
-            "singleLine": 1,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
             "hasSubfield": 0,
             "isFlex": 0
         },
         "Booking No.": {
             "row": [9, 10],
             "column": [29, 91],
-            "sameLineWithKeyword": 1,
-            "singleLine": 1,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
             "hasSubfield": 0,
             "isFlex": 0
         },
         "Date": {
             "row": [9, 10],
-            "sameLineWithKeyword": 1,
+            "contentSameLineWithKeyword": 1,
             "column": [113, null],
-            "singleLine": 1,
+            "topAndKeywordOnSingleLine": 1,
             "hasSubfield": 0,
             "isFlex": 0
         },
@@ -35,8 +35,8 @@
             "row": [12, 18],
             "column": [4, 91],
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Shipper Name & Address",
@@ -49,8 +49,8 @@
             "row": [12, 18],
             "column": [92, null],
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Consignee Name & Address",
@@ -62,9 +62,9 @@
         "Notify Party": {
             "row": [19, 20],
             "column": [4, 91],
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "isFlex": 1,
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Notify Party",
@@ -77,8 +77,8 @@
             "row": [19, 20],
             "column": [92, null],
             "isFlex": 1,
-            "singleLine": 0,
-            "sameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Port of Loading",
@@ -91,8 +91,8 @@
             "row": [21, 22],
             "column": [4, 63],
             "isFlex": 0,
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Port of Discharge",
@@ -105,8 +105,8 @@
             "row": [21, 22],
             "column": [64, 113],
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Place of Delivery",
@@ -119,8 +119,8 @@
             "row": [21, 23],
             "column": [113, 143],
             "isFlex": 1,
-            "singleLine": 0,
-            "sameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Vessel",
@@ -132,8 +132,8 @@
         "Etd": {
             "row": [21, 22],
             "column": [144, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 0,
             "isFlex": 1,
             "hasSubfield": 0,
             "endObject": {
@@ -146,9 +146,9 @@
         "Container/Seal No.": {
             "row": [24, 26],
             "column": [4, 49],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "isFlex": 1,
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "endObject": {
                 "top": "Container/Seal No.",
@@ -160,9 +160,9 @@
         "Packages": {
             "row": [24, 27],
             "column": [49, 73],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "isFlex": 1,
             "endObject": {
                 "top": "Packages",
@@ -174,8 +174,8 @@
         "Description of Goods": {
             "row": [24, 26],
             "column": [73, 120],
-            "sameLineWithKeyword": 0,
-            "singleLine": 0,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
             "isFlex": 1,
             "endObject": {
@@ -188,9 +188,9 @@
         "G.W (KGS)": {
             "row": [24, 28],
             "column": [120, 146],
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "hasSubfield": 0,
-            "sameLineWithKeyword": 0,
+            "contentSameLineWithKeyword": 0,
             "isFlex": 1,
             "endObject": {
                 "top": "G.W (KGS)",
@@ -202,8 +202,8 @@
         "CBM": {
             "row": [24, 27],
             "column": [146, null],
-            "singleLine": 0,
-            "sameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "contentSameLineWithKeyword": 0,
             "hasSubfield": 0,
             "isFlex": 1,
             "endObject": {
@@ -216,9 +216,9 @@
         "Remarks": {
             "row": [27, 28],
             "hasSubfield": 0,
-            "singleLine": 0,
+            "topAndKeywordOnSingleLine": 0,
             "column": [14, 51],
-            "sameLineWithKeyword": 1,
+            "contentSameLineWithKeyword": 1,
             "isFlex": 1,
             "endObject": {
                 "top": "Total",
@@ -232,8 +232,8 @@
             "row": [27, 30],
             "column": [120, 140],
             "isFlex": 1,
-            "sameLineWithKeyword": 1,
-            "singleLine": 1,
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
             "endObject":
             {
                 "top": "Payment",
