@@ -3,9 +3,6 @@ import json
 import os
 import re
 
-# import pdb
-# pdb.set_trace()
-
 PDF_TYPE = "VN103933"
 CURR_CONFIG = {}
 
@@ -68,8 +65,6 @@ if __name__ == '__main__':
             else:
                 kwpos[newKey]=kwpos_temp[key][0]
        
-        import pdb
-        pdb.set_trace()
         for key in CONFIG:
             if (CONFIG[key]['isFlex']): 
                 top=CONFIG[key]['endObject']['top']
